@@ -6,13 +6,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: "Hello Flutter by fanhl",
+      title: "Welcome to Flutter",
       home: new Scaffold(
         appBar: new AppBar(
           title: new Text('Welcome to Flutter'),
         ),
         body: new Center(
-          child: new Text('Hello World'),
+          child: new Text('Hello World by fanhl'),
         ),
       ),
     );
